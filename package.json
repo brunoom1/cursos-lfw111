@@ -1,0 +1,17 @@
+{
+  "name": "my-node-project",
+  "version": "1.0.0",
+  "description": "Um novo projeto node",
+  "main": "index.js",
+  "scripts": {
+    "static": "serve -p 5050 static",
+    "test": "echo \"Nenhum teste avaliado\""
+  },
+  "author": "Gabriel Mendonça",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "fastify-cli": "^6.3.0",
+    "serve": "^14.2.3"
+  }
+}
